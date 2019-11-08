@@ -38,9 +38,9 @@ int main(int argc, char *argv[] ) {
   delete[] Char;
 
   ////////////////////////  TESTS /////////////////////////////
-  registerset->setReg(10, 2);
-  registerset->setReg(0x10000010,4);
-  registerset->setReg(15,3);
+//   registerset->setReg(10, 2);
+//   registerset->setReg(0x10000010,4);
+//   registerset->setReg(15,3);
   ////////////////////////  TESTS /////////////////////////////
 
 
@@ -58,13 +58,7 @@ int main(int argc, char *argv[] ) {
    	}else if(type=='I') {
     	iTypeInstruction iType(registerset, mainMem);
    	}
-    std::cerr << "hello: "<< registerset->getPC() << std::endl;
   }
-
-  std::cerr << "REGISTER 1: " << registerset->getReg(1) << "--Expected 25" << std::endl;
-  std::cerr << "REGISTER 4: " << registerset->getReg(4) << "--Expected next numebr" << std::endl;
-  std::cerr << "REGISTER 5: " << registerset->getReg(5) << "--Expected 25" << std::endl;
-  std::cerr << "PC: " << registerset->getPC() << std::endl;
 
 	exit(-10);
 }
