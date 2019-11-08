@@ -41,17 +41,18 @@ int main(int argc, char *argv[] ) {
   // mainMem->write_to_memory(0b00000100, 0xA);
   // mainMem->write_to_memory(0b00000110, 0xB);
 
-  registerset->setReg(4232323, 0);
-  registerset->setReg(0x8,1);
+//   registerset->setReg(4232323, 0);
+//   registerset->setReg(0x8,1);
 
   //registerset->setReg(84,0);
   ////////////////////////  TESTS /////////////////////////////
 
-	Toolkit tool(mainMem, registerset);
+  Toolkit tool(mainMem, registerset);
+	
   while((registerset->getPC())<address){
    	uint32_t j=registerset->getPC();
    	uint32_t instruction=mainMem->read_from_memory(j);
-		char type=tool.decode(instruction);
+	char type=tool.decode(instruction);
    	if(type=='R') {
     	rTypeInstruction rType(registerset, mainMem);
    	}else if(type=='J') {
