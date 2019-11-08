@@ -124,7 +124,6 @@ rTypeInstruction::rTypeInstruction(Registers* regy, Memory* memy) {
 	this->mem = memy;
   this->reg = regy;
 	run(memy->read_from_memory(reg->getPC()));
-	std::cout << "value in r pc: " << memy->read_from_memory(reg->getPC()) << std::endl;
 }
 
 iTypeInstruction::iTypeInstruction(Registers* regy, Memory* memy) {
