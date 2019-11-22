@@ -1,0 +1,48 @@
+#!/bin/bash
+
+simulator=$1
+binaries="selftest/tests"
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m'
+failedTests=()
+numFailed=0
+
+for I in selftest/tests/*.bin; do
+
+./bin/mips_simulator "$I"
+RETCODE=$?
+
+testID=${I:15}
+fileName=${I::-4}
+outID=${testID::-4}
+
+input=$fileName".txt"
+
+textData=()
+
+while IFS= read -r line; do
+		textData+=("${line//#}")
+done <"$input"
+
+instruction=${textData[0]}
+expected=${textData[1]}
+testFor=${textData[2]}
+getCharInput=${textData[3]}
+expectedPutChar=${textData[4]}
+author=${textData[5]}
+
+stdout=$(echo "getCharInput" | $simulator "$I")
+
+if [[ "$RETCODE" == $expected ]]; then
+	if [[ "$expectedPutChar" == "$stdout" ]]
+	then
+		echo -e $outID", "$instruction", PASS, "$author", Exit Code: "$RETCODE
+	else
+		echo -e ${RED}$outID", "$instruction", FAIL, "$author", Exit Code: "$RETCODE "|| Expected: "$expected" || "$testFor${NC}
+	fi
+else
+    echo -e ${RED}$outID", "$instruction", FAIL, "$author", Exit Code: "$RETCODE "|| Expected: "$expected" || "$testFor${NC}
+fi
+
+done
