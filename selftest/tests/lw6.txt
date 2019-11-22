@@ -1,0 +1,12 @@
+#LW
+#0
+#load word from instr
+#
+#
+#woonmoon
+
+addi $1, $1, 2048
+lui $17, 0x1000
+lw $2, 0($17)
+jr $0
+nop

@@ -1,0 +1,12 @@
+#LH
+#245
+#load misaligned 
+#
+#
+#r15hil
+
+addi $1, $1, 10
+lui $17, 0x1000
+lh $2, 3($17)
+jr $0
+nop

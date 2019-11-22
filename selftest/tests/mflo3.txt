@@ -1,0 +1,12 @@
+#MFLO
+#12
+#positive*positive
+#
+#
+#r15hil
+
+addi $16, $16, 3
+addi $17, $17, 4
+mult $16, $17
+mflo $2
+jr $0

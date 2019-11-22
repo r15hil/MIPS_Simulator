@@ -1,0 +1,13 @@
+#LH
+#82
+#load halfword 2 offset
+#
+#
+#r15hil
+
+lui $17, 0x2000
+addi $18, $18, 594
+sw $18, 0($17)
+lh $2, 2($17)
+jr $0
+nop

@@ -1,0 +1,9 @@
+#LUI
+#0
+#only upper
+#
+#
+#r15hil
+
+lui $2, 0x6000
+jr $0

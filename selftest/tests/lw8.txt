@@ -1,0 +1,11 @@
+#LW
+#245
+#load word from invalid location
+#
+#
+#r15hil
+
+lui $17, 0x6000
+lw $2, 0($17)
+jr $0
+nop
