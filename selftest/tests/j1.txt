@@ -1,0 +1,16 @@
+#J
+#6
+#jump
+#
+#
+#woonmoon
+
+addi $2, $2, 2
+j jumploc
+addi $2, $2, 1
+addi $2, $2, 42
+
+jumploc: addi $2, $2, 4
+addi $2, $2, -1
+jr $0
+nop

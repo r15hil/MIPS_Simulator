@@ -1,0 +1,13 @@
+#BGTZ
+#0
+#rs > 0
+#
+#
+#r15hil
+
+addi $17, $17, 1
+bgtz $17, end
+nop
+addi $2, $2, 2
+end: jr $0
+nop

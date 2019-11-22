@@ -1,0 +1,13 @@
+#JALR
+#16
+#r2 return address
+#
+#
+#woonmoon
+
+lui $16, 0x1000
+addi $16, $16, 12
+jalr $2, $16
+nop
+addi $17, $17, 1
+jr $0

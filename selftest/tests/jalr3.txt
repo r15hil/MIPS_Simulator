@@ -1,0 +1,13 @@
+#JALR
+#1
+#delay slot
+#
+#
+#woonmoon
+
+lui $16, 0x1000
+addi $16, $16, 20
+jalr $16
+addi $2, $2, 1
+nop
+jr $0

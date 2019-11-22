@@ -1,0 +1,12 @@
+#J
+#245
+#invalid pc
+#
+#
+#woonmoon
+
+addi $2, $2, 2
+j 0xAFFF
+addi $2, $2, 4
+jr $0
+nop

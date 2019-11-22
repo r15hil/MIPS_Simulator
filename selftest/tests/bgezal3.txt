@@ -1,0 +1,12 @@
+#BGEZAL
+#245
+#invalid pc
+#
+#
+#r15hil
+
+addi $3, $3 10
+bgezal $3, -10
+nop
+jr $0
+nop

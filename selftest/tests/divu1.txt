@@ -1,0 +1,13 @@
+#DIVU
+#11
+#quotient
+#
+#
+#woonmoon
+
+addi $17, $0, 33 
+addi $18, $0, 3
+div $17, $18
+mflo $2
+jr $0
+nop

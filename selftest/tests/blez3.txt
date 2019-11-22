@@ -1,0 +1,12 @@
+#BLEZ
+#245
+#invalid pc
+#
+#
+#r15hil
+
+addi $3, $3 -10
+blez $3, -10
+nop
+jr $0
+nop

@@ -1,0 +1,20 @@
+#J
+#6
+#two jumps, check delay slot is working
+#
+#
+#r15hil
+
+addi $2, $2, 2
+j jumploc
+addi $2, $2, 1
+addi $2, $2, 42
+
+jumploc: addi $2, $2, 7
+j hello
+nop
+
+hello: addi $2, $2, -4 
+jr $0
+nop
+

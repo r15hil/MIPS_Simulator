@@ -1,0 +1,13 @@
+#JALR
+#1
+#standard
+#
+#
+#woonmoon
+
+lui $16, 0x1000
+addi $16, $16, 12
+jalr $16
+nop
+addi $2, $2, 1
+jr $0

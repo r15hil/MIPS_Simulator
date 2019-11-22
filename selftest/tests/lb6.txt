@@ -1,0 +1,11 @@
+#LB
+#245
+#putchar
+#
+#
+#woonmoon
+
+lui $17, 0x3004
+lb $2, 0($17)
+jr $0
+nop

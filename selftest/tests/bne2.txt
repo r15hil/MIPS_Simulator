@@ -1,0 +1,13 @@
+#BNE
+#2
+#rs = rd
+#
+#
+#woonmoon
+
+addi $17, $17, 7
+addi $18, $18, 7
+bne $17, $18 end
+nop
+addi $2, $2, 2
+end: jr $0

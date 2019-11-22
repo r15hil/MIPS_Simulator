@@ -1,0 +1,13 @@
+#DIV
+#236
+#negative denominator
+#
+#
+#r15hil
+
+addi $17, $0, 60 
+addi $18, $0, -3
+div $17, $18
+mflo $2
+jr $0
+nop

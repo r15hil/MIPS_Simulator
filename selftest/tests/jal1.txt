@@ -1,0 +1,17 @@
+#jal 
+#101
+#testing jump and return
+#
+#
+#r15hil
+
+addi $17, $17, 15
+jal jumpy
+addi $17, $17, 5
+add $2, $17, $0
+jr $0
+nop
+
+jumpy: addi $17, $17 81
+jr $31
+nop

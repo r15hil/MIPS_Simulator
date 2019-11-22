@@ -1,0 +1,12 @@
+#bgezal
+#2
+#rs!=rt check return register
+#
+#
+#woonmoon
+
+addi $17, $17, -1
+bgezal $17, end
+nop
+addi $2, $2, 2
+end: jr $0

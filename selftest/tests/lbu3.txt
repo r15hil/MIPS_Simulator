@@ -1,0 +1,11 @@
+#LBU
+#245
+#invalid mem location
+#
+#
+#r15hil
+
+lui $17, 0x6000
+lbu $2, 0($17)
+jr $0
+nop

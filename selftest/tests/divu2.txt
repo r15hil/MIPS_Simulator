@@ -1,0 +1,13 @@
+#DIV
+#0
+#remainder
+#
+#
+#r15hil
+
+addi $17, $0, 33 
+addi $18, $0, 3
+div $17, $18
+mfhi $2
+jr $0
+nop

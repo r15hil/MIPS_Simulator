@@ -1,0 +1,12 @@
+#BLTZ
+#2
+#rs = 0
+#
+#
+#woonmoon
+
+addi $17, $17, 0
+bltz $17, end
+nop
+addi $2, $2, 2
+end: jr $0

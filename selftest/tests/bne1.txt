@@ -1,0 +1,15 @@
+#BNE
+#0
+#rs != rt
+#
+#
+#r15hil
+
+addi $17, $17, 7
+addi $18, $18, 8
+bne $17, $18, end
+nop
+addi $2, $2, 2
+
+end: jr $0
+nop

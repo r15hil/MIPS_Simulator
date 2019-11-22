@@ -1,0 +1,12 @@
+#BNE
+#245
+#invalid pc
+#
+#
+#r15hil
+
+addi $1, $1, 1
+bne $0, $1, 0xAFFF
+nop
+jr $0
+nop
