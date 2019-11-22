@@ -1,0 +1,11 @@
+#SLT
+#1
+#negative/positive
+#
+#
+#woonmoon
+
+addi $3, $3, -1
+addi $16, $16, 1
+slt $2, $3, $16
+jr $0

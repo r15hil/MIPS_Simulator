@@ -1,0 +1,12 @@
+#MULT
+#253
+#negative*positive
+#
+#
+#woonmoon
+
+addi $16, $16, -1
+addi $17, $17, 3
+mult $16, $17
+mflo $2
+jr $0

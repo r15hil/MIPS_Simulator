@@ -1,0 +1,14 @@
+#SH
+#245
+#misaligned address
+#
+#
+#r15hil
+
+ori $13, $13, 0x2000
+sll $13, $13, 16
+ori $3, $3, 0xffff
+sll $3, $3, 16
+addi $3, $3, 0x1234
+sh $3, 3($13)
+jr $0

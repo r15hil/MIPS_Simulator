@@ -1,0 +1,10 @@
+#SLTI
+#0
+#negative equals
+#
+#
+#woonmoon
+
+addi $3, $3, -1
+slti $2, $3, -1
+jr $0

@@ -1,0 +1,10 @@
+#ori
+#255
+#ori normal
+#
+#
+#r15hil
+
+addi $16, $16, 0x00ff
+ori $2, $16, 0xff00
+jr $0

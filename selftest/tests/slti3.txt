@@ -1,0 +1,10 @@
+#SLTI
+#0
+#negative comparison
+#
+#
+#woonmoon
+
+addi $3, $3, -1
+slti $2, $3, -4
+jr $0

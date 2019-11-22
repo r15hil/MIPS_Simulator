@@ -1,0 +1,14 @@
+#SB
+#245
+#out of bounds mem
+#
+#
+#woonmoon
+
+ori $13, $13, 0x30ff
+sll $13, $13, 16
+ori $3, $3, 0xffff
+sll $3, $3, 16
+addi $3, $3, 0x1234
+sb $3, 3($13)
+jr $0

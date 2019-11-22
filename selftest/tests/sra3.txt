@@ -1,0 +1,10 @@
+#SRA
+#1
+#negative shift, positive interp
+#
+#
+#woonmoon
+
+addi $3, $3, 4
+sra $2, $3, 2
+jr $0

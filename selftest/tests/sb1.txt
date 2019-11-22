@@ -1,0 +1,14 @@
+#SB
+#0
+#standard
+#
+#
+#woonmoon
+
+ori $13, $13, 0x23ff
+sll $13, $13, 16
+ori $3, $3, 0xffff
+sll $3, $3, 16
+addi $3, $3, 0x1234
+sb $3, 3($13)
+jr $0

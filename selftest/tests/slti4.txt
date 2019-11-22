@@ -1,0 +1,10 @@
+#SLTI
+#0
+#positive less than
+#
+#
+#r15hil
+
+addi $3, $3, 3
+slti $2, $3, 1
+jr $0

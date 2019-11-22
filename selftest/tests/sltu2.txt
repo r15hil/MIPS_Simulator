@@ -1,0 +1,11 @@
+#SLTU
+#1
+#0x2>0x1
+#
+#
+#woonmoon
+
+addi $3, $3, 1
+addi $16, $16, 2
+sltu $2, $3, $16
+jr $0

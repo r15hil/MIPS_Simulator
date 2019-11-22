@@ -1,0 +1,11 @@
+#BEQ
+#245
+#skips past last instruction
+#
+#
+#r15hil
+
+beq $0, $0, 0xFFFF
+nop
+jr $0
+nop

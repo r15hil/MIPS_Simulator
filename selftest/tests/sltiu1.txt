@@ -1,0 +1,10 @@
+#SLTIU
+#0
+#0xffffffff>0x1
+#
+#
+#r15hil
+
+addi $3, $3, -1
+sltiu $2, $3, 1
+jr $0

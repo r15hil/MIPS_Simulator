@@ -1,0 +1,11 @@
+#SLLV
+#0
+#positive negative shift
+#
+#
+#r15hil
+
+addi $3, $3, 1
+addi $16, $16, -1
+sllv $2, $3, $16
+jr $0

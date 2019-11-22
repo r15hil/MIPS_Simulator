@@ -1,0 +1,11 @@
+#SLT
+#0
+#negative comparison
+#
+#
+#r15hil
+
+addi $3, $3, -1
+addi $16, $16, -4
+slt $2, $3, $16
+jr $0

@@ -1,0 +1,15 @@
+#SH
+#245
+#out of bounds mem add
+#
+#
+#woonmoon
+
+ori $13, $13, 0x3000
+sll $13, $13, 16
+addi $13, $13, 0xa
+ori $3, $3, 0xffff
+sll $3, $3, 16
+addi $3, $3, 0x1234
+sh $3, 4($13)
+jr $0

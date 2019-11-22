@@ -1,0 +1,10 @@
+#ori
+#255
+#ori normal
+#
+#
+#woonmoon
+
+addi $16, $16, 0x00ff
+ori $2, $16, 0x000f
+jr $0
