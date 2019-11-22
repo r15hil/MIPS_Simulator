@@ -1,0 +1,11 @@
+#BEQ
+#245
+#invalid pc
+#
+#
+#r15hil
+
+beq $0, $0, 0xAFFF
+nop
+jr $0
+nop

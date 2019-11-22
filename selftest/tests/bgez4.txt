@@ -1,0 +1,18 @@
+#bgez
+#2
+#rs>0 backwards
+#
+#
+#woonmoon
+
+addi $17, $17, 1
+bgez $17, route1
+nop
+
+end:
+jr $0
+nop
+
+route1: addi $2, $2, 2
+bgez $2, end
+nop

@@ -1,0 +1,10 @@
+#ANDI
+#0
+#standard
+#
+#
+#r15hil
+
+addi $16, $16, 0x0fff
+andi $2, $16, 0
+jr $0

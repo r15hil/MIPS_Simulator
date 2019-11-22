@@ -1,0 +1,11 @@
+#ADDU
+#251
+#negative+negative
+#
+#
+#woonmoon
+
+addi $2, $2, -3
+addi $16, $16, -2
+addu $2, $2, $16
+jr $0

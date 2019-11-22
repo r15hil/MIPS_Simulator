@@ -1,0 +1,12 @@
+#ADDU
+#0
+#there should be no overflow
+#
+#
+#r15hil
+
+addi $2, $2, -1
+srl $2, $2, 1
+addi $16, $16, 1
+addu $2, $2, $16
+jr $0

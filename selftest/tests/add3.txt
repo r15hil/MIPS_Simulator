@@ -1,0 +1,11 @@
+#ADD
+#254
+#negative+positive
+#
+#
+#r15hil
+
+addi $16, $16, -10
+addi $2, $2, 8
+add $2, $2, $16
+jr $0

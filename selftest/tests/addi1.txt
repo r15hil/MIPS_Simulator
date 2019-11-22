@@ -1,0 +1,11 @@
+#ADDI
+#246
+#long numbers overflow
+#
+#
+#r15hil
+
+addi $2, $2, -1
+srl $2, $2, 1
+addi $2, $2, 1
+jr $0

@@ -1,0 +1,11 @@
+#bgez
+#2
+#rs<0 no branch
+#
+#
+#r15hil
+
+addi $17, $17, -1
+bgez $17 end
+addi $2, $2, 2
+end: jr $0

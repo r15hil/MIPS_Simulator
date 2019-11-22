@@ -1,0 +1,12 @@
+#beq
+#2
+#rs==rt delay slot
+#
+#
+#r15hil
+
+addi $17, $17, 1
+addi $16, $16, 1
+beq $17, $16 end
+addi $2, $2, 2
+end: jr $0

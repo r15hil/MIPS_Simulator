@@ -1,0 +1,12 @@
+#ADD
+#246
+#sign switch
+#
+#
+#woonmoon
+
+addi $2, $2, -1
+srl $2, $2, 1
+addi $16, $16, 1
+add $2, $2, $16
+jr $0

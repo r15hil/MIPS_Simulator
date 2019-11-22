@@ -1,0 +1,10 @@
+#addiu
+#7
+#positive+positive
+#
+#
+#woonmoon
+
+addi $2, $2, 3
+addiu $2, $2, 4
+jr $0

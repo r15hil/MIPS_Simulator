@@ -1,0 +1,13 @@
+#beq
+#2
+#rs==rt
+#
+#
+#woonmoon
+
+addi $17, $17, 1
+addi $16, $16, 1
+beq $17, $16 func
+addi $17, $17, -1
+func: addi $2, $2, 2
+jr $0

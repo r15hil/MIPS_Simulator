@@ -1,0 +1,11 @@
+#ADD
+#7
+#positive+positive
+#
+#
+#woonmoon
+
+addi $2, $2, 3
+addi $16, $16, 4
+add $2, $2, $16
+jr $0

@@ -1,0 +1,10 @@
+#ADDIU
+#253
+#negative+negative
+#
+#
+#woonmoon
+
+addi $2, $2, -2
+addi $2, $2, -1
+jr $0

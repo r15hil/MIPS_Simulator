@@ -1,0 +1,11 @@
+#ADDIU
+#0
+#big add
+#
+#
+#r15hil
+
+addi $2, $2, -1
+srl $2, $2, 1
+addiu $2, $2, 1
+jr $0

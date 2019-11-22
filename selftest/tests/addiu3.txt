@@ -1,0 +1,10 @@
+#ADDIU
+#1
+#negative+positive
+#
+#
+#r15hil
+
+addi $2, $2, -3
+addi $2, $2, 4
+jr $0

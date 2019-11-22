@@ -1,0 +1,13 @@
+#beq
+#1
+#rs!=rt
+#
+#
+#woonmoon
+
+addi $17, $17, 1
+addi $16, $16, 2
+beq $17, $16 end
+addi $2, $2, 3
+andi $2, $2, 1
+end: jr $0

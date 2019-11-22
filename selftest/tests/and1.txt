@@ -1,0 +1,11 @@
+#AND
+#255
+#standard
+#
+#
+#r15hil
+
+addi $16, $16, 0x0fff
+addi $17, $17, 0x00ff
+and $2, $16, $17
+jr $0

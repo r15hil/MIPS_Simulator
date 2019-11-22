@@ -1,0 +1,10 @@
+#ANDI
+#255
+#standard
+#
+#
+#woonmoon
+
+addi $16, $16, 0x0fff
+andi $2, $16, 0x00ff
+jr $0
