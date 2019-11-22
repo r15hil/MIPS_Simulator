@@ -1,0 +1,11 @@
+#SUB
+#2
+#standard neg-neg
+#
+#
+#woonmoon
+
+addi $3, $3, -1
+addi $2, $2, -3
+sub $2, $3, $2
+jr $0

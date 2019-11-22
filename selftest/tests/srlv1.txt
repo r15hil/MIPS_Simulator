@@ -1,0 +1,11 @@
+#SRLV
+#255
+#negative large shift
+#
+#
+#r15hil
+
+addi $3, $3, -1
+addi $16, $16, 2
+srlv $2, $3, $16
+jr $0

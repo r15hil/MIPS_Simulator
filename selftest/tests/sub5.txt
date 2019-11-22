@@ -1,0 +1,12 @@
+#SUB
+#246
+#overflow check
+#
+#
+#woonmoon
+
+addi $3, $3, -1
+srl $3, $3, 1
+addi $2, $2, -1
+sub $2, $3, $2
+jr $0

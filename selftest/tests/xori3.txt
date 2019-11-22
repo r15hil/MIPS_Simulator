@@ -1,0 +1,10 @@
+#xori
+#255
+#sign_extend 1
+#
+#
+#woonmoon
+
+addi $2, $2, 0x80
+xori $2, $2, 0x7f
+jr $0

@@ -1,0 +1,10 @@
+#SRA
+#0
+#negative shift, positive interp
+#
+#
+#r15hil
+
+addi $3, $3, 4
+sra $2, $3, -1
+jr $0

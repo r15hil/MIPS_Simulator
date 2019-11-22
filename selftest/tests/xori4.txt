@@ -1,0 +1,11 @@
+#xori
+#255
+#test for zero-extend and not signed
+#
+#
+#r15hil
+
+addi $3, $3, -1
+xori $2, $3, 0xff
+srl $2, $2, 8
+jr $0

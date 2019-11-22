@@ -1,0 +1,11 @@
+#SUBU
+#1
+#standard pos-pos
+#
+#
+#r15hil
+
+addi $3, $3, 3
+addi $2, $2, 2
+subu $2, $3, $2
+jr $0

@@ -1,0 +1,11 @@
+#SRAV
+#255
+#negative shift, positive interp
+#
+#
+#woonmoon
+
+addi $3, $3, -1
+addi $16, $16, 31
+srav $2, $3, $16
+jr $0

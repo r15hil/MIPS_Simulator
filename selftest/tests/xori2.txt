@@ -1,0 +1,10 @@
+#xori
+#252
+#sign_extend 1
+#
+#
+#r15hil
+
+addi $2, $2, 3
+xori $2, $2, -1
+jr $0

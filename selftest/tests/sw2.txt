@@ -1,0 +1,12 @@
+#sw
+#245
+#out of bounds mem add
+#
+#
+#r15hil
+
+ori $13, $13, 0x3000
+sll $13, $13, 16
+addi $3, $3, 24
+sw $3, 12($13)
+jr $0

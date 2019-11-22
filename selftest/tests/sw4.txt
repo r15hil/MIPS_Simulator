@@ -1,0 +1,12 @@
+#sw
+#245
+#insert into imem
+#
+#
+#r15hil
+
+ori $13, $13, 0x1000
+sll $13, $13, 16
+addi $3, $3, 24
+sw $3, 12($13)
+jr $0

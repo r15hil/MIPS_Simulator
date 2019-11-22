@@ -1,0 +1,11 @@
+#SRAV
+#254
+#negative shift, positive interp
+#
+#
+#r15hil
+
+addi $3, $3, -3
+addi $16, $16, 1
+srav $2, $3, $16
+jr $0

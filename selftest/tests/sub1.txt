@@ -1,0 +1,11 @@
+#SUB
+#2
+#standard pos-pos
+#
+#
+#woonmoon
+
+addi $3, $3, 3
+addi $2, $2, 1
+sub $2, $3, $2
+jr $0

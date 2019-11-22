@@ -1,0 +1,11 @@
+#xor
+#128
+#standard negative
+#
+#
+#woonmoon
+
+addi $2, $2, -1
+addi $3, $3, 0x7f
+xor $2, $2, $3
+jr $0

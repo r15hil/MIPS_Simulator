@@ -1,0 +1,11 @@
+#SRLV
+#1
+#negative small shift
+#
+#
+#woonmooon
+
+addi $3, $3, -1
+addi $16, $16, 31
+srlv $2, $3, $16
+jr $0

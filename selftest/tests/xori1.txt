@@ -1,0 +1,10 @@
+#xori
+#254
+#standard
+#
+#
+#woonmoon
+
+addi $2, $2, 1
+xori $2, $2, 0x0fff
+jr $0
