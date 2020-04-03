@@ -1,3 +1,3 @@
-#mips_simulator
+# mips_simulator
 
 run with  make simulator
